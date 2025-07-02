@@ -1,3 +1,2 @@
-# This file is for configurations specific to the api-gateway service
-# fetched by the config-server.
-# We will add routes and security filters here later.
+jwt:
+  secret: ${JWT_SECRET}
