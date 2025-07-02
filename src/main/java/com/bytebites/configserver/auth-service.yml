@@ -1,0 +1,5 @@
+# Configurations for auth-service, fetched by config-server
+# jwt:
+#   secret: yourStrongSecretKeyHerePleaseChangeMeInProductionWhichShouldBeAtLeast256BitsLong
+#   expiration: 3600000 # 1 hour in milliseconds
+#   refresh-expiration: 604800000 # 7 days
