@@ -1,4 +1,4 @@
 jwt:
-  secret: ${JWT_SECRET}
+  secret: 5a2d26f537508cb0df5b1b47fca1146b851f8153d7e9b382f745e2476dd8a63a
   expiration-milliseconds: 3600000
   refresh-expiration-milliseconds: 604800000
