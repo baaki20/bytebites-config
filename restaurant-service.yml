@@ -11,6 +11,10 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  kafka:
+    consumer:
+        group-id: restaurant-service-group
+        bootstrap-servers: localhost:9092
 
 bytebites:
   restaurant:
